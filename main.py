@@ -9,7 +9,9 @@ CHAT_ID = "1805770693"
 def enviar_mensagem(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
     requests.post(url, data={"chat_id": CHAT_ID, "text": msg})
-    enviar_mensagem("TESTE FUNCIONANDO 🚀")
+    
+    # TESTE
+enviar_mensagem("TESTE FUNCIONANDO 🚀")
     
 
 ultimo_alerta = 0
